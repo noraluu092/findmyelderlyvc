@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3D830922EEBECE0080AF5D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D830822EEBECE0080AF5D /* CustomButton.swift */; };
+		CEBAA4C622EBA3500062D869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAA4C522EBA3500062D869 /* AppDelegate.swift */; };
+		CEBAA4C822EBA3500062D869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAA4C722EBA3500062D869 /* ViewController.swift */; };
+		CEBAA4CB22EBA3500062D869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBAA4C922EBA3500062D869 /* Main.storyboard */; };
+		CEBAA4CD22EBA3510062D869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBAA4CC22EBA3510062D869 /* Assets.xcassets */; };
+		CEBAA4D022EBA3510062D869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBAA4CE22EBA3510062D869 /* LaunchScreen.storyboard */; };
+		CEBAA4DB22EBA3510062D869 /* find_my_elderly_homeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAA4DA22EBA3510062D869 /* find_my_elderly_homeTests.swift */; };
+		CEBAA4E622EBA3510062D869 /* find_my_elderly_homeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAA4E522EBA3510062D869 /* find_my_elderly_homeUITests.swift */; };
+		CEBAA4F422EBA4310062D869 /* Salmon White - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBAA4F322EBA4310062D869 /* Salmon White - Personal Use.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBAA4D722EBA3510062D869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBAA4BA22EBA3500062D869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBAA4C122EBA3500062D869;
+			remoteInfo = "find my elderly home";
+		};
+		CEBAA4E222EBA3510062D869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBAA4BA22EBA3500062D869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBAA4C122EBA3500062D869;
+			remoteInfo = "find my elderly home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3D830822EEBECE0080AF5D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CEBAA4C222EBA3500062D869 /* find my elderly home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "find my elderly home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBAA4C522EBA3500062D869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBAA4C722EBA3500062D869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBAA4CA22EBA3500062D869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBAA4CC22EBA3510062D869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBAA4CF22EBA3510062D869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBAA4D122EBA3510062D869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBAA4D622EBA3510062D869 /* find my elderly homeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "find my elderly homeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBAA4DA22EBA3510062D869 /* find_my_elderly_homeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_my_elderly_homeTests.swift; sourceTree = "<group>"; };
+		CEBAA4DC22EBA3510062D869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBAA4E122EBA3510062D869 /* find my elderly homeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "find my elderly homeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBAA4E522EBA3510062D869 /* find_my_elderly_homeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_my_elderly_homeUITests.swift; sourceTree = "<group>"; };
+		CEBAA4E722EBA3510062D869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBAA4F322EBA4310062D869 /* Salmon White - Personal Use.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salmon White - Personal Use.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBAA4BF22EBA3500062D869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4D322EBA3510062D869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4DE22EBA3510062D869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBAA4B922EBA3500062D869 = {
+			isa = PBXGroup;
+			children = (
+				CEBAA4C422EBA3500062D869 /* find my elderly home */,
+				CEBAA4D922EBA3510062D869 /* find my elderly homeTests */,
+				CEBAA4E422EBA3510062D869 /* find my elderly homeUITests */,
+				CEBAA4C322EBA3500062D869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBAA4C322EBA3500062D869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAA4C222EBA3500062D869 /* find my elderly home.app */,
+				CEBAA4D622EBA3510062D869 /* find my elderly homeTests.xctest */,
+				CEBAA4E122EBA3510062D869 /* find my elderly homeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBAA4C422EBA3500062D869 /* find my elderly home */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAA4C522EBA3500062D869 /* AppDelegate.swift */,
+				CEBAA4C722EBA3500062D869 /* ViewController.swift */,
+				CE3D830822EEBECE0080AF5D /* CustomButton.swift */,
+				CEBAA4C922EBA3500062D869 /* Main.storyboard */,
+				CEBAA4CC22EBA3510062D869 /* Assets.xcassets */,
+				CEBAA4CE22EBA3510062D869 /* LaunchScreen.storyboard */,
+				CEBAA4F322EBA4310062D869 /* Salmon White - Personal Use.otf */,
+				CEBAA4D122EBA3510062D869 /* Info.plist */,
+			);
+			path = "find my elderly home";
+			sourceTree = "<group>";
+		};
+		CEBAA4D922EBA3510062D869 /* find my elderly homeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAA4DA22EBA3510062D869 /* find_my_elderly_homeTests.swift */,
+				CEBAA4DC22EBA3510062D869 /* Info.plist */,
+			);
+			path = "find my elderly homeTests";
+			sourceTree = "<group>";
+		};
+		CEBAA4E422EBA3510062D869 /* find my elderly homeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAA4E522EBA3510062D869 /* find_my_elderly_homeUITests.swift */,
+				CEBAA4E722EBA3510062D869 /* Info.plist */,
+			);
+			path = "find my elderly homeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBAA4C122EBA3500062D869 /* find my elderly home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBAA4EA22EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly home" */;
+			buildPhases = (
+				CEBAA4BE22EBA3500062D869 /* Sources */,
+				CEBAA4BF22EBA3500062D869 /* Frameworks */,
+				CEBAA4C022EBA3500062D869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "find my elderly home";
+			productName = "find my elderly home";
+			productReference = CEBAA4C222EBA3500062D869 /* find my elderly home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBAA4D522EBA3510062D869 /* find my elderly homeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBAA4ED22EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly homeTests" */;
+			buildPhases = (
+				CEBAA4D222EBA3510062D869 /* Sources */,
+				CEBAA4D322EBA3510062D869 /* Frameworks */,
+				CEBAA4D422EBA3510062D869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBAA4D822EBA3510062D869 /* PBXTargetDependency */,
+			);
+			name = "find my elderly homeTests";
+			productName = "find my elderly homeTests";
+			productReference = CEBAA4D622EBA3510062D869 /* find my elderly homeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBAA4E022EBA3510062D869 /* find my elderly homeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBAA4F022EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly homeUITests" */;
+			buildPhases = (
+				CEBAA4DD22EBA3510062D869 /* Sources */,
+				CEBAA4DE22EBA3510062D869 /* Frameworks */,
+				CEBAA4DF22EBA3510062D869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBAA4E322EBA3510062D869 /* PBXTargetDependency */,
+			);
+			name = "find my elderly homeUITests";
+			productName = "find my elderly homeUITests";
+			productReference = CEBAA4E122EBA3510062D869 /* find my elderly homeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBAA4BA22EBA3500062D869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = gwc;
+				TargetAttributes = {
+					CEBAA4C122EBA3500062D869 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CEBAA4D522EBA3510062D869 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CEBAA4C122EBA3500062D869;
+					};
+					CEBAA4E022EBA3510062D869 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CEBAA4C122EBA3500062D869;
+					};
+				};
+			};
+			buildConfigurationList = CEBAA4BD22EBA3500062D869 /* Build configuration list for PBXProject "find my elderly home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBAA4B922EBA3500062D869;
+			productRefGroup = CEBAA4C322EBA3500062D869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBAA4C122EBA3500062D869 /* find my elderly home */,
+				CEBAA4D522EBA3510062D869 /* find my elderly homeTests */,
+				CEBAA4E022EBA3510062D869 /* find my elderly homeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBAA4C022EBA3500062D869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBAA4D022EBA3510062D869 /* LaunchScreen.storyboard in Resources */,
+				CEBAA4CD22EBA3510062D869 /* Assets.xcassets in Resources */,
+				CEBAA4CB22EBA3500062D869 /* Main.storyboard in Resources */,
+				CEBAA4F422EBA4310062D869 /* Salmon White - Personal Use.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4D422EBA3510062D869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4DF22EBA3510062D869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBAA4BE22EBA3500062D869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBAA4C822EBA3500062D869 /* ViewController.swift in Sources */,
+				CEBAA4C622EBA3500062D869 /* AppDelegate.swift in Sources */,
+				CE3D830922EEBECE0080AF5D /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4D222EBA3510062D869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBAA4DB22EBA3510062D869 /* find_my_elderly_homeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBAA4DD22EBA3510062D869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBAA4E622EBA3510062D869 /* find_my_elderly_homeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBAA4D822EBA3510062D869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBAA4C122EBA3500062D869 /* find my elderly home */;
+			targetProxy = CEBAA4D722EBA3510062D869 /* PBXContainerItemProxy */;
+		};
+		CEBAA4E322EBA3510062D869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBAA4C122EBA3500062D869 /* find my elderly home */;
+			targetProxy = CEBAA4E222EBA3510062D869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBAA4C922EBA3500062D869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBAA4CA22EBA3500062D869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBAA4CE22EBA3510062D869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBAA4CF22EBA3510062D869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBAA4E822EBA3510062D869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBAA4E922EBA3510062D869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBAA4EB22EBA3510062D869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9N33WQMF9;
+				INFOPLIST_FILE = "find my elderly home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBAA4EC22EBA3510062D869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9N33WQMF9;
+				INFOPLIST_FILE = "find my elderly home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEBAA4EE22EBA3510062D869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "find my elderly homeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/find my elderly home.app/find my elderly home";
+			};
+			name = Debug;
+		};
+		CEBAA4EF22EBA3510062D869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "find my elderly homeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/find my elderly home.app/find my elderly home";
+			};
+			name = Release;
+		};
+		CEBAA4F122EBA3510062D869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "find my elderly homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "find my elderly home";
+			};
+			name = Debug;
+		};
+		CEBAA4F222EBA3510062D869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "find my elderly homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotproductions.find-my-elderly-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "find my elderly home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBAA4BD22EBA3500062D869 /* Build configuration list for PBXProject "find my elderly home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAA4E822EBA3510062D869 /* Debug */,
+				CEBAA4E922EBA3510062D869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBAA4EA22EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAA4EB22EBA3510062D869 /* Debug */,
+				CEBAA4EC22EBA3510062D869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBAA4ED22EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly homeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAA4EE22EBA3510062D869 /* Debug */,
+				CEBAA4EF22EBA3510062D869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBAA4F022EBA3510062D869 /* Build configuration list for PBXNativeTarget "find my elderly homeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAA4F122EBA3510062D869 /* Debug */,
+				CEBAA4F222EBA3510062D869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBAA4BA22EBA3500062D869 /* Project object */;
+}
